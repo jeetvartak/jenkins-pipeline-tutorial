@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'This is your boy Jeet' 
             }
         }
         stage('Compile') {
@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Publish Artifacts') {
             steps {
-                echo 'Save the assemblies generated from the compilation' 
+                echo 'Until Next Time Amigos!' 
             }
         }
     }
